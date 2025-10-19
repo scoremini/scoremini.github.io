@@ -41,17 +41,18 @@ strong {
     padding-bottom: 4rem;
 }
 
-#features {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    background-color: #f8f9fa;
-    border-top: 1px solid #e9ecef;
+.featurette-divider {
+  margin: 3rem 0;
 }
+
+.featurette-image {
+  max-width: 300px;
+}
+
 
 #testimonials {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    border-top: 1px solid #e9ecef;
 }
 
 .final-cta-section {
