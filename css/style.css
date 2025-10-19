@@ -1,3 +1,16 @@
+body {
+  /* Removed previous gradient */
+}
+
+.hero-section {
+  background: linear-gradient(to bottom, #254fdd, #123790);
+  color: #ffffff;
+}
+
+.hero-section .lead {
+  color: rgba(255, 255, 255, 0.85);
+}
+
 @media (min-width: 992px) {
   .rounded-lg-3 {
     border-radius: 0.3rem;
@@ -6,7 +19,7 @@
 
 .rounded-lg-20 {
   border-radius: 20px;
-  box-shadow: -6px 6px 15px darkgray;
+  box-shadow: -6px 6px 15px rgba(0, 0, 0, 0.1);
 }
 
 .ss-rounded {
@@ -16,4 +29,112 @@
 
 strong {
   font-weight: 600;
+}
+
+.hero-screenshot-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#achievements {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.featurette-divider {
+  margin: 3rem 0;
+}
+
+.featurette-image {
+  max-width: 300px;
+}
+
+
+#testimonials {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.final-cta-section {
+  background: linear-gradient(to bottom, #254fdd, #123790);
+  color: #ffffff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.final-cta-section .lead {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+
+.feature-icon-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #d3ff03;
+  border-radius: 0.75rem;
+  padding: 10px;
+}
+
+.testimonial-quote {
+  margin-bottom: 3rem;
+  padding-left: 1.5rem;
+  border-left: 4px solid #254fdd;
+}
+
+.testimonial-quote p {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.testimonial-quote cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: normal;
+  font-weight: 600;
+  text-align: right;
+}
+
+/* Responsive Styles */
+@media (max-width: 767.98px) {
+  .hero-section .py-5 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+
+  #achievements {
+    padding-bottom: 1rem;
+  }
+
+  .display-5 {
+    font-size: 2.5rem; /* Reduce hero headline size */
+  }
+
+  .featurette-heading {
+    font-size: 32px; /* Reduce featurette headline size */
+    text-align: center; /* Center heading on mobile */
+  }
+
+  .featurette .lead {
+    text-align: center; /* Center lead text on mobile */
+  }
+
+  .featurette-divider {
+    margin: 3rem 0; /* Reduce vertical spacing */
+  }
+
+  .featurette-image {
+    max-width: 250px; /* Further constrain image size on mobile */
+    margin-bottom: 1rem;
+  }
+
+  .row.featurette {
+    text-align: center;
+  }
+
+  .row.featurette.align-items-center {
+    flex-direction: column-reverse;
+  }
 }
