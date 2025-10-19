@@ -96,3 +96,45 @@ strong {
   font-weight: 600;
   text-align: right;
 }
+
+/* Responsive Styles */
+@media (max-width: 767.98px) {
+  .hero-section .py-5 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+
+  #achievements {
+    padding-bottom: 1rem;
+  }
+
+  .display-5 {
+    font-size: 2.5rem; /* Reduce hero headline size */
+  }
+
+  .featurette-heading {
+    font-size: 32px; /* Reduce featurette headline size */
+    text-align: center; /* Center heading on mobile */
+  }
+
+  .featurette .lead {
+    text-align: center; /* Center lead text on mobile */
+  }
+
+  .featurette-divider {
+    margin: 3rem 0; /* Reduce vertical spacing */
+  }
+
+  .featurette-image {
+    max-width: 250px; /* Further constrain image size on mobile */
+    margin-bottom: 1rem;
+  }
+
+  .row.featurette {
+    text-align: center;
+  }
+
+  .row.featurette.align-items-center {
+    flex-direction: column-reverse;
+  }
+}
